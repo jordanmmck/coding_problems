@@ -53,7 +53,9 @@ class Solution:
         sum = 0
         k = 0
         while n >= k:
-            sum += math.factorial(n) // math.factorial(k) // math.factorial(n - k)
+            sum += math.factorial(n) \
+                // math.factorial(k) \
+                // math.factorial(n - k)
             n -= 1
             k += 1
 
