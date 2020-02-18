@@ -45,21 +45,22 @@
 
 # @lc code=start
 
-import math
-
 
 class Solution:
     def climbStairs(self, n: int) -> int:
+        factorials = [1] * (n + 1)
+        for i in range(1, n + 1):
+            factorials[i] = factorials[i - 1] * i
+
         sum = 0
         k = 0
         while n >= k:
-            sum += math.factorial(n) \
-                // math.factorial(k) \
-                // math.factorial(n - k)
+            sum += factorials[n] // factorials[k] // factorials[n - k]
             n -= 1
             k += 1
 
         return sum
+
 
 # @lc code=end
 
