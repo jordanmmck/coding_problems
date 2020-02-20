@@ -1,10 +1,14 @@
 # Coding Problems
 
-Leetcode coding problems.
+[leetcode profile](https://leetcode.com/jordanmmck/)
 
-[https://leetcode.com/jordanmmck/](https://leetcode.com/jordanmmck/)
+```python
+ Easy	 14/380 (  3.68 %)  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ Medium	  1/680 (  0.15 %)  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ Hard	  0/280 (  0.00 %)  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+```
 
-## Problems
+## Problems to do
 
 - Anagram Deletion (Given two strings how many deletions until they are anagrams?)
 - Rotate a matrix (in place)
@@ -12,9 +16,3 @@ Leetcode coding problems.
 - Permutations in a string
 - Cycle detection
 - Array rotation
-
-```
- Easy	 14/380 (  3.68 %)  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- Medium	  1/680 (  0.15 %)  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
- Hard	  0/280 (  0.00 %)  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
