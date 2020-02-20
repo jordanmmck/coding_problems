@@ -13,8 +13,6 @@ Leetcode coding problems.
 - Cycle detection
 - Array rotation
 
-```
-arr[i] ^= arr[j]
-arr[j] ^= arr[i]
-arr[i] ^= arr[j]
-```
+ Easy	 14/380 (  3.68 %)  ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ Medium	  1/680 (  0.15 %)  █░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+ Hard	  0/280 (  0.00 %)  ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
