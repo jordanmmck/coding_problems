@@ -10,20 +10,20 @@
 
 ## Problems to do
 
-[‎✔] Compute all subets of size k
-[‎ ] Compute all Permutations of String
-[ ] Compute all Combinations of Set
-[ ] N Queens
-[ ] 8-puzzle
-[ ] rotate array
-[ ] multiply matrix
-[ ] fibonacci stuff
-[ ] Anagram Deletion (Given two strings how many deletions until they are anagrams?)
-[ ] Rotate a matrix (in place)
-[ ] Combinations in a set
-[ ] Permutations in a string
-[ ] Cycle detection
-[ ] Array rotation
+- [x] Compute all subets of size k
+- [ ] Compute all Permutations of String
+- [ ] Compute all Combinations of Set
+- [ ] N Queens
+- [ ] 8-puzzle
+- [ ] rotate array
+- [ ] multiply matrix
+- [ ] fibonacci stuff
+- [ ] Anagram Deletion (Given two strings how many deletions until they are anagrams?)
+- [ ] Rotate a matrix (in place)
+- [ ] Combinations in a set
+- [ ] Permutations in a string
+- [ ] Cycle detection
+- [ ] Array rotation
 
 ### Algs
 
