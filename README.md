@@ -10,12 +10,17 @@
 
 ## Problems to do
 
+### Permutations and Combinations
+
 - [x] Compute all subets of size k
 - [ ] Compute all Permutations of String
 - [ ] Compute all Combinations of Set
+
+### other
+
 - [ ] N Queens
 - [ ] 8-puzzle
-- [ ] rotate array
+- [x] rotate array
 - [ ] multiply matrix
 - [ ] fibonacci stuff
 - [ ] Anagram Deletion (Given two strings how many deletions until they are anagrams?)
@@ -41,7 +46,6 @@
 ### Math stuff
 
 - Log rules, power stuff
-- Counting, combinatorics
 - Pascal’s triangle?
 - Random walk?
 - Normal dist
