@@ -1,26 +1,11 @@
 # prints all subsets of size k
-def n_choose_k(current, options, k):
+def subsets_size_k(subset: list, options: list, k: int) -> None:
+    if k == 1:
+        for option in options:
+            print(subset + [option])
 
-    if (k == 1):
-        for element in options:
-            print(current + [element])
-        return
-
-    for i, _ in enumerate(options[:-(k - 1)]):
-        n_choose_k(current + [options[i]], options[i+1:], k-1)
-
-# prints all subsets of size k
+    for i in range(len(options[:-(k - 1)])):
+        subsets_size_k(subset+[options[i]], options[i+1:], k-1)
 
 
-# def n_choose_k(current, options, k):
-
-#     if (k == 1):
-#         for element in options:
-#             print(current + [element])
-#         return
-
-#     for i, _ in enumerate(options[:-(k - 1)]):
-#         n_choose_k(current + [options[i]], options[1 + i:], k - 1)
-
-
-n_choose_k([], ['a', 'b', 'c', 'd', 'e'], 3)
+subsets_size_k([], ['A', 'B', 'C', 'D', 'E'], 3)
